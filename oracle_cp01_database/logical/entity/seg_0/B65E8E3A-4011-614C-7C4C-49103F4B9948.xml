@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B65E8E3A-4011-614C-7C4C-49103F4B9948" name="SISTEMA_RHSTU">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:42:24 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NM_FANTASIA" id="D4CB306E-679B-BB8E-175D-FC07E3D98469">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:42:35 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RZ_SOCIAL" id="1B136905-B615-D749-A57F-5E4EDC3D5C71">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:42:43 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNPJ" id="8C8447D7-9CED-8EAD-B7F1-E6FAB6F66ACC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:43:05 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTATO" id="074F72C8-E676-7630-F41B-7E5B17DBB6FC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:43:26 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E194F99D-F890-5E80-51FA-888F15F2ABC8" name="SISTEMA_RHSTU PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:43:24 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C8447D7-9CED-8EAD-B7F1-E6FAB6F66ACC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

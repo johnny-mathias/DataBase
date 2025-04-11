@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFCC9B6D-1327-8A6F-0054-526BD874068D" name="ENDERECO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:37:27 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NM_LOGRADOURO" id="949541F0-3C37-8C3B-A91D-1045C62A0839">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:37:42 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BAIRRO" id="75599E84-CE59-C8C1-587E-52A76CA96B71">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:37:55 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIDADE" id="7E9B7CEB-82F0-2CF7-9531-8EEA3FEC82A8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:38:13 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="9FE085A3-6AB4-F84A-A49C-3533097F046C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:38:24 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="B4CDE7DF-EBA0-2F3F-B970-1032B46C84EF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:38:35 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="26C9077F-A100-754A-65C2-BA21260D4A9E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:38:50 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PONTO_REF" id="18178C22-CC56-CEEA-33D7-0C0B00A2B5C0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:39:11 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0DFBB677-06DA-3959-0700-0F201772DC18" name="ENDERECO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:39:31 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4CDE7DF-EBA0-2F3F-B970-1032B46C84EF</attributeRef>
+<attributeRef>26C9077F-A100-754A-65C2-BA21260D4A9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
