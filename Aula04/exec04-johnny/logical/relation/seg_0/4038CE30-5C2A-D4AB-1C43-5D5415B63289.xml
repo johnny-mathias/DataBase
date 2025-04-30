@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VB_ESTABELECIMENTO_PEDIDO" directorySegmentName="seg_0" id="4038CE30-5C2A-D4AB-1C43-5D5415B63289">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:42:30 UTC</createdTime>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<engineerTo>
+<item key="E718D95C-D852-7A1E-3A05-1514ADAEDE51" value="true"/>
+</engineerTo>
+<sourcePk>868333E8-C04B-E3DC-9D9C-7A033D42993E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9C46F326-D242-D72A-BD5C-FE38CE3ABD17</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6E4B684F-1621-B6B4-E6B7-FAE104AD845D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

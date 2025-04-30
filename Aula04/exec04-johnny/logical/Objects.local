@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="9C46F326-D242-D72A-BD5C-FE38CE3ABD17" name="T_VB_ESTABELECIMENTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="03B4C062-07C5-4E29-FCC8-7AA644C68753" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="6E4B684F-1621-B6B4-E6B7-FAE104AD845D" name="T_VB_PEDIDO_VENDA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="03B4C062-07C5-4E29-FCC8-7AA644C68753" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A94D9CD0-4232-48D9-176E-0BF9D9D30A69" name="T_VB_PRODUTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="03B4C062-07C5-4E29-FCC8-7AA644C68753" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="34BF3DD0-7ECF-CF9F-527E-C6FFE07175F8" name="FK_PEDIDO_PRODUTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="03B4C062-07C5-4E29-FCC8-7AA644C68753" propertySourceId="6E4B684F-1621-B6B4-E6B7-FAE104AD845D" propertyTargetId="A94D9CD0-4232-48D9-176E-0BF9D9D30A69"/>
+   <object objectType="Relation" objectID="4038CE30-5C2A-D4AB-1C43-5D5415B63289" name="FK_VB_ESTABELECIMENTO_PEDIDO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="03B4C062-07C5-4E29-FCC8-7AA644C68753" propertySourceId="9C46F326-D242-D72A-BD5C-FE38CE3ABD17" propertyTargetId="6E4B684F-1621-B6B4-E6B7-FAE104AD845D"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

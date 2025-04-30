@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20488E9D-0F0F-B9F4-2C92-866561F483A3" name="T_RHSTU_UNIDADE">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:44:49 UTC</createdTime>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UND" id="84A22324-4386-4B95-EB4F-3FC1F8FC4B61">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:46:43 UTC</createdTime>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ENDERECO" id="3225BE9A-2751-4331-CF49-3A729C002A76">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 04:08:49 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do endereco do paciente. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>6AB1A4E9-6FF4-9748-0652-4D57550AB967</generatorID>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>A67EC336-20FB-B7E0-82FC-B4C1E989F750</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PLANO_SAUDE" id="B1897A52-6DE7-CE56-309B-7D9B414B7F6D">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 04:10:37 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do plano de saúde. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>BE74AD04-FAD7-3E9B-E089-1796656CDFB1</generatorID>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>E40D7012-4CE7-F19C-25A9-4951C8D0B3B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E735E80-3F26-88E1-A7DD-F940B709BE42" name="T_RHSTU_UNIDADE PK">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:46:59 UTC</createdTime>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>84A22324-4386-4B95-EB4F-3FC1F8FC4B61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

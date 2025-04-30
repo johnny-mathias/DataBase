@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A94D9CD0-4232-48D9-176E-0BF9D9D30A69" name="T_VB_PRODUTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:48:01 UTC</createdTime>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<engineerTo>
+<item key="E718D95C-D852-7A1E-3A05-1514ADAEDE51" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PRODUTO" id="49A2AE29-2F12-D4F5-B2C7-D6A474FEC5B6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:48:11 UTC</createdTime>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<engineerTo>
+<item key="E718D95C-D852-7A1E-3A05-1514ADAEDE51" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PRODUTO" id="D191F81A-9F34-9D30-AD5D-87ACD8D75ECA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:51:32 UTC</createdTime>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<engineerTo>
+<item key="E718D95C-D852-7A1E-3A05-1514ADAEDE51" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QT_CONSUMIDA" id="93BB7BF5-107E-169C-5DD9-418FAE22F546">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:52:00 UTC</createdTime>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<engineerTo>
+<item key="E718D95C-D852-7A1E-3A05-1514ADAEDE51" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_TIPO" id="6F4B7FF7-E2A4-B8EF-F43B-7FA2B7B1ADE8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:52:22 UTC</createdTime>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<engineerTo>
+<item key="E718D95C-D852-7A1E-3A05-1514ADAEDE51" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_PRODUTO" id="72E903CA-160F-361A-A866-B9BD6CF58D76">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:52:45 UTC</createdTime>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<engineerTo>
+<item key="E718D95C-D852-7A1E-3A05-1514ADAEDE51" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_VENDA" id="0F6CE8A0-FFE6-D352-10B5-E018F8CF9E62">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:53:39 UTC</createdTime>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<engineerTo>
+<item key="E718D95C-D852-7A1E-3A05-1514ADAEDE51" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_DESCONTO" id="87691C1D-7856-A8FB-94C9-A5DF14EA302A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:54:02 UTC</createdTime>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<engineerTo>
+<item key="E718D95C-D852-7A1E-3A05-1514ADAEDE51" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_TOTAL" id="0D4B4B97-AD29-F0CA-810F-EC904B112B1F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:54:17 UTC</createdTime>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<engineerTo>
+<item key="E718D95C-D852-7A1E-3A05-1514ADAEDE51" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_PEDIDO" id="9BED67C1-A7B9-1259-6226-5F3D51881F5B">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-04 21:41:02 UTC</createdTime>
+<generatorID>34BF3DD0-7ECF-CF9F-527E-C6FFE07175F8</generatorID>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<engineerTo>
+<item key="E718D95C-D852-7A1E-3A05-1514ADAEDE51" value="true"/>
+</engineerTo>
+<referedAttribute>68F350C9-5443-C53E-41B1-35E98F82DAD0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>70</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47899555-26DA-754A-B7F9-528015B119A7" name="T_VB_PRODUTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:53:25 UTC</createdTime>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<engineerTo>
+<item key="E718D95C-D852-7A1E-3A05-1514ADAEDE51" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49A2AE29-2F12-D4F5-B2C7-D6A474FEC5B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

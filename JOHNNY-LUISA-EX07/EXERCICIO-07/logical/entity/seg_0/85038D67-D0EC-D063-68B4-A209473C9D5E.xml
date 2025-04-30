@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85038D67-D0EC-D063-68B4-A209473C9D5E" name="T_RHSTU_CONSULTA">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:32:27 UTC</createdTime>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ATEND" id="EEBC4BEB-1F69-175E-D163-11AEE707C22C">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:36:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de Identificacao do atendimento.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA" id="5A1F7F1D-ADA7-13ED-A160-6B61130B1012">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:35:29 UTC</createdTime>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUM_SALA" id="72A3BDEA-7269-6F13-0393-DA23A3C0F5C5">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:37:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero da sala de atendimento.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9077D1FB-8273-225F-C110-F54458CD063F" name="T_RHSTU_CONSULTA PK">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:36:47 UTC</createdTime>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EEBC4BEB-1F69-175E-D163-11AEE707C22C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

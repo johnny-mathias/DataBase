@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1DFF515-F85E-E558-8C62-EFD82F5CC5DE" name="T_RHSTU_ENDERECO_PACIENTEv1">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:59:41 UTC</createdTime>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENDERECO" id="A67EC336-20FB-B7E0-82FC-B4C1E989F750">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:59:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do endereco do paciente. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do endereco do paciente. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CEP" id="9460EFDF-F0CC-58C0-1481-301F4AE5E7CE">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:59:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do CEP do endereco do paciente. Esse número deve ser correspondente a base do correio. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do CEP do endereco do paciente. Esse número deve ser correspondente a base do correio. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_LOGRADOURO" id="010BC89A-3E24-B88F-2083-7E59B0EE53DE">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:59:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o logradouro do endereco do paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o logradouro do endereco do paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>8BCC4E83-DAA8-181A-7DE9-422F9A8742E1</generatorID>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_LOGRADOURO" id="43B757B9-ED92-B34A-FCDC-802E1D6521B3">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:59:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do logradouro do endereco do paciente.  Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do logradouro do endereco do paciente.  Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_COMPLEMENTO_NUMERO" id="28F0B378-A7D0-EDEA-B8F8-866B8AFF58B9">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:59:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o complemeneto  do logradouro do endereco do paciente caso ele exista. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o complemeneto  do logradouro do endereco do paciente caso ele exista. Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PONTO_REFERENCIA" id="E377DA67-3600-AEF9-00C3-FF24CC22FFB2">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:59:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o ponto de referência  do logradouro do endereco do paciente.  Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o ponto de referência  do logradouro do endereco do paciente.  Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="E7BE4A96-923D-FDDF-1AEA-115D9D64CD27">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:59:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do Bairro do endereco do paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do Bairro do endereco do paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="3FECA3B9-E6EB-CB6C-552D-68A0158839BF">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:59:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome da Cidade do endereco do paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome da Cidade do endereco do paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ESTADO" id="A3A318B6-5F32-CB27-FAD3-B18DBA03043B">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:59:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do Estado  do endereco do paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do Estado  do endereco do paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 CHAR</dataTypeSize>
+<ownDataTypeParameters>45 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_ESTADO" id="2A2A7F13-FB7C-A555-0A9D-60A62E6E9F4E">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:59:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a sigla do Estado  do endereco do paciente.  Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a sigla do Estado  do endereco do paciente.  Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UND" id="6ABA208B-5BE5-8BAD-EB5C-73D6F05CDCBD">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 04:08:45 UTC</createdTime>
+<generatorID>6AB1A4E9-6FF4-9748-0652-4D57550AB967</generatorID>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>84A22324-4386-4B95-EB4F-3FC1F8FC4B61</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D383D73-59D6-FB94-E854-BA05F44C0555" name="PK_RHSTU_ENDERECO_PACIENTE">
+<createdBy>Johnny</createdBy>
+<createdTime>2025-04-30 03:59:41 UTC</createdTime>
+<ownerDesignName>EXERCICIO-07</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A67EC336-20FB-B7E0-82FC-B4C1E989F750</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

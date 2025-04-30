@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="exec04-johnny" id="064B620A-17CA-6EB8-8CAA-63689B322E8F" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 00:31:29 UTC</createdTime>
+<ownerDesignName>exec04-johnny</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>064B620A-17CA-6EB8-8CAA-63689B322E8F</designId>
+</OSDM_Design>
