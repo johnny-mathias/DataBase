@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43946243-6D28-C13B-0696-E79C42235214" name="RHSTU_PACIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 00:46:12 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SEXO_PACIENTE" id="D327B9B4-6C7C-F07D-EE2F-9D1CFF62A49A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 00:46:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sexo de nascenca do paciente do RHSTU.]]></commentInRDBMS>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PACIENTE" id="4A29451A-D0E9-57AD-3D6B-05A9ABD2A68B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 00:48:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome completo do paciente do RHSTU.]]></commentInRDBMS>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>170</dataTypeSize>
+<ownDataTypeParameters>170,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF_PACIENTE" id="972F237B-EF2A-78AA-2A28-ADDFCA4DB074">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:05:32 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RG_PACIENTE" id="995096BC-22AF-E4C7-58FC-0932FFC011FE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:15:28 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NASC_PACIENTE" id="97F33BE5-735C-A018-E6AA-46DD081EB833">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:17:05 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_6" id="DC99556F-95AE-50C6-8737-08738ED53FB1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 01:17:52 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADEABCE6-7B51-6890-6C3C-CEBB14BE5396" name="RHSTU_PACIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-11 00:50:14 UTC</createdTime>
+<ownerDesignName>oracle_cp01_database</ownerDesignName>
+<engineerTo>
+<item key="71D1424D-B3A8-3D4F-B007-038AC975A2D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>972F237B-EF2A-78AA-2A28-ADDFCA4DB074</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
