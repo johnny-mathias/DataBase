@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="FFCC9B6D-1327-8A6F-0054-526BD874068D" name="ENDERECO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D632C2A9-B09A-A04A-E33A-91E5DA4F27FA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="43946243-6D28-C13B-0696-E79C42235214" name="RHSTU_PACIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D632C2A9-B09A-A04A-E33A-91E5DA4F27FA" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="612EC63B-0BE0-CF96-7034-EE2CE8960F21" name="PACIENTE_CONTATO_EMERGENCIA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D632C2A9-B09A-A04A-E33A-91E5DA4F27FA" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="8DA63EB3-F884-53D4-7D15-086B028050CF" name="PLANO_SAUDE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D632C2A9-B09A-A04A-E33A-91E5DA4F27FA" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="43946243-6D28-C13B-0696-E79C42235214" name="RHSTU_PACIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D632C2A9-B09A-A04A-E33A-91E5DA4F27FA" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="B65E8E3A-4011-614C-7C4C-49103F4B9948" name="SISTEMA_RHSTU" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D632C2A9-B09A-A04A-E33A-91E5DA4F27FA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="FFCC9B6D-1327-8A6F-0054-526BD874068D" name="ENDERECO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D632C2A9-B09A-A04A-E33A-91E5DA4F27FA" propertySourceId="" propertyTargetId=""/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>
